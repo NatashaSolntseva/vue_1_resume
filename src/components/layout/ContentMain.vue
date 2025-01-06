@@ -11,9 +11,6 @@ export default {
 <style scoped>
 .content-main {
   flex: 1;
-  padding: 20px;
-  background-color: #fff;
-  color: black;
-  border: 1px solid blue;
+  padding: 64px 32px;
 }
 </style>
