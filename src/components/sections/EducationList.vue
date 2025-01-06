@@ -13,7 +13,7 @@
 </template>
 
 <script>
-import EducationCard from "../shared/EducationCard.vue";
+import EducationCard from "@/components/shared/EducationCard.vue";
 
 export default {
   name: "EducationList",

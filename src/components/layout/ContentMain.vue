@@ -19,18 +19,18 @@
 </template>
 
 <script>
-import SectionContainer from "../shared/SectionContainer.vue";
-import EducationList from "../sections/EducationList.vue";
-import CertificateList from "../sections/CertificateList.vue";
-import ProjectList from "../sections/ProjectList.vue";
-import ToolList from "../sections/ToolList.vue";
-import AchievementList from "../sections/AchievementList.vue";
+import SectionContainer from "@/components/shared/SectionContainer.vue";
+import EducationList from "@/components/sections/EducationList.vue";
+import CertificateList from "@/components/sections/CertificateList.vue";
+import ProjectList from "@/components/sections/ProjectList.vue";
+import ToolList from "@/components/sections/ToolList.vue";
+import AchievementList from "@/components/sections/AchievementList.vue";
 
-import { EDUCATION } from "../../constants/content/education.ts";
-import { ACHIEVEMENTS } from "../../constants/content/achievements.ts";
-import { CERTIFICATES } from "../../constants/content/certificates.ts";
-import { PROJECTS } from "../../constants/content/projects.ts";
-import { TOOLS } from "../../constants/content/tools.ts";
+import { EDUCATION } from "@/constants/content/education.ts";
+import { ACHIEVEMENTS } from "@/constants/content/achievements.ts";
+import { CERTIFICATES } from "@/constants/content/certificates.ts";
+import { PROJECTS } from "@/constants/content/projects.ts";
+import { TOOLS } from "@/constants/content/tools.ts";
 
 export default {
   name: "ContentMain",

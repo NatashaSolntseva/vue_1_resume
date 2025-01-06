@@ -15,20 +15,18 @@
 </template>
 
 <script>
-import ProfileCard from "../sections/ProfileCard.vue";
-import Divider from "../shared/Divider.vue";
-import ContactList from "../sections/ContactList.vue";
-import SocialList from "../sections/SocialList.vue";
-import LanguageList from "../sections/LanguageList.vue";
-import HobbyList from "../sections/HobbyList.vue";
-import SectionTitle from "../shared/ProfileSectionTitle.vue";
+import ProfileCard from "@/components/sections/ProfileCard.vue";
+import Divider from "@/components/shared/Divider.vue";
+import ContactList from "@/components/sections/ContactList.vue";
+import SocialList from "@/components/sections/SocialList.vue";
+import LanguageList from "@/components/sections/LanguageList.vue";
+import HobbyList from "@/components/sections/HobbyList.vue";
+import SectionTitle from "@/components/shared/ProfileSectionTitle.vue";
 
-import { SOCIALS } from "../../constants/profile/socials.ts";
-import { LANGUAGES } from "../../constants/profile/languages.ts";
-import { HOBBIES } from "../../constants/profile/hobbies.ts";
-import { CONTACTS } from "../../constants/profile/contacts.ts";
-
-//TODO alias не работает
+import { SOCIALS } from "@/constants/profile/socials.ts";
+import { LANGUAGES } from "@/constants/profile/languages.ts";
+import { HOBBIES } from "@/constants/profile/hobbies.ts";
+import { CONTACTS } from "@/constants/profile/contacts.ts";
 
 export default {
   name: "ProfileSidebar",

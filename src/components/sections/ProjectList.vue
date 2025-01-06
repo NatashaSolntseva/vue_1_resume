@@ -13,7 +13,7 @@
 </template>
 
 <script>
-import ProjectCard from "../shared/ProjectCard.vue";
+import ProjectCard from "@/components/shared/ProjectCard.vue";
 
 export default {
   name: "ProjectList",

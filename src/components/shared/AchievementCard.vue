@@ -11,7 +11,7 @@
         </span>
         <img
           class="location-icon"
-          src="/src/assets/icons/location_small.svg"
+          src="@/assets/icons/location_small.svg"
           alt="icon"
         />
         <span v-if="location" class="achievement-location">{{ location }}</span>

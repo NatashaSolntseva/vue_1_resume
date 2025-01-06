@@ -12,7 +12,7 @@
 </template>
 
 <script>
-import CertificateCard from "../shared/CertificateCard.vue";
+import CertificateCard from "@/components/shared/CertificateCard.vue";
 
 export default {
   name: "CertificateList",

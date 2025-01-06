@@ -11,7 +11,7 @@
 </template>
 
 <script>
-import ToolCard from "../shared/ToolCard.vue";
+import ToolCard from "@/components/shared/ToolCard.vue";
 
 export default {
   name: "ToolList",

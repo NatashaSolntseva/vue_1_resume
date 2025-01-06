@@ -2,7 +2,7 @@
   <div class="profile-card">
     <img
       class="profile-avatar"
-      src="../../assets/images/avatar.png"
+      src="@/assets/images/avatar.png"
       alt="Profile Avatar"
     />
     <h2 class="profile-name">Anurag Yadav</h2>

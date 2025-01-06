@@ -12,9 +12,7 @@
 </template>
 
 <script>
-import ContactItem from "../shared/ContactItem.vue";
-
-//TODO alias не работает
+import ContactItem from "@/components/shared/ContactItem.vue";
 
 export default {
   name: "ContactList",

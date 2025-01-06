@@ -12,7 +12,7 @@
 </template>
 
 <script>
-import SocialItem from "../shared/SocialItem.vue";
+import SocialItem from "@/components/shared/SocialItem.vue";
 
 export default {
   name: "SocialList",

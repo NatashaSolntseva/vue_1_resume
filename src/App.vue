@@ -8,8 +8,8 @@
 </template>
 
 <script>
-import ProfileSidebar from "./components/layout/ProfileSidebar.vue";
-import ContentMain from "./components/layout/ContentMain.vue";
+import ProfileSidebar from "@/components/layout/ProfileSidebar.vue";
+import ContentMain from "@/components/layout/ContentMain.vue";
 
 export default {
   name: "App",

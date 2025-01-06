@@ -15,7 +15,7 @@
 </template>
 
 <script>
-import AchievementCard from "../shared/AchievementCard.vue";
+import AchievementCard from "@/components/shared/AchievementCard.vue";
 
 export default {
   name: "AchievementList",

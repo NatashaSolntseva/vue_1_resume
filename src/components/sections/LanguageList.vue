@@ -11,7 +11,7 @@
 </template>
 
 <script>
-import LanguageItem from "../shared/LanguageItem.vue";
+import LanguageItem from "@/components/shared/LanguageItem.vue";
 
 export default {
   name: "LanguageList",
@@ -25,9 +25,6 @@ export default {
       default: () => [],
     },
   },
-  // mounted() {
-  //   console.log("Languages prop received:", this.languages);
-  // },
 };
 </script>
 

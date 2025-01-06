@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import HobbyItem from "../shared/HobbyItem.vue";
+import HobbyItem from "@/components/shared/HobbyItem.vue";
 
 export default {
   name: "HobbyList",
