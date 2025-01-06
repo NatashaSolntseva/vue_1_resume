@@ -40,7 +40,7 @@ export default {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: #f7f9fc;
+  background: var(--primary-color);
   padding: 16px;
 }
 
@@ -63,20 +63,20 @@ export default {
   font-size: 16px;
   line-height: 19px;
   font-weight: 500;
-  color: #2e2e48;
+  color: var(--text-color);
 }
 
 .certificate-organization {
   font-size: 14px;
   line-height: 18px;
-  color: #79819a;
+  color: var(--muted-text);
   margin: 4px 0 0;
 }
 
 .certificate-date {
   font-size: 12px;
   line-height: 16px;
-  color: #47516b;
+  color: var(--secondary-color);
   text-align: right;
 }
 </style>

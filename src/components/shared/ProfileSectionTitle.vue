@@ -20,7 +20,7 @@ export default {
 .section-title {
   font-size: 12px;
   line-height: 16px;
-  color: #79819a;
+  color: var(--muted-text);
   margin: 32px 0 20px;
 }
 </style>

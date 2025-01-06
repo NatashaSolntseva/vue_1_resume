@@ -61,7 +61,7 @@ export default {
 .social-label {
   font-size: 12px;
   line-height: 16px;
-  color: #79819a;
+  color: var(--muted-text);
 }
 
 .social-value {
@@ -69,7 +69,7 @@ export default {
   font-weight: 500;
   font-size: 14px;
   line-height: 18px;
-  color: #47516b;
+  color: var(--secondary-color);
   text-decoration: none;
 }
 

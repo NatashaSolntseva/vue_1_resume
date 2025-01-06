@@ -33,7 +33,7 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: #f7f9fc;
+  background: var(--card-background);
   border-radius: 8px;
   padding: 16px;
   text-align: center;
@@ -50,12 +50,12 @@ export default {
   font-size: 14px;
   line-height: 18px;
   font-weight: 500;
-  color: #2e2e48;
+  color: var(--text-color);
 }
 
 .tool-description {
   font-size: 10px;
   line-height: 100%;
-  color: #79819a;
+  color: var(--muted-text);
 }
 </style>

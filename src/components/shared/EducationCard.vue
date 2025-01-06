@@ -71,7 +71,7 @@ export default {
   font-size: 12px;
   line-height: 16px;
   font-weight: 500;
-  color: #2e2e48;
+  color: var(--text-color);
 }
 
 .education-content {
@@ -84,22 +84,22 @@ export default {
   font-size: 14px;
   line-height: 18px;
   font-weight: 500;
-  color: #2e2e48;
+  color: var(--text-color);
 }
 
 .education-period {
   font-size: 10px;
   line-height: 100%;
-  color: #79819a;
+  color: var(--muted-text);
 }
 
 .education-percentage {
   font-size: 12px;
   line-height: 100%;
-  color: #79819a;
+  color: var(--muted-text);
 }
 
 .education-percentage-acent {
-  color: #5d5fef;
+  color: var(--accent-color);
 }
 </style>

@@ -54,7 +54,7 @@ export default {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background: #f7f9fc;
+  background: var(--card-background);
   padding: 24px;
 }
 
@@ -85,13 +85,13 @@ export default {
   font-size: 16px;
   line-height: 20px;
   font-weight: 500;
-  color: #2e2e48;
+  color: var(--text-color);
 }
 
 .project-description {
   font-size: 14px;
   line-height: 18px;
-  color: #79819a;
+  color: var(--muted-text);
   margin: 4px 0;
 }
 
@@ -105,7 +105,7 @@ export default {
   font-size: 16px;
   line-height: 20px;
   font-weight: 500;
-  color: #516cf7;
+  color: var(--action-color);
   text-decoration: none;
 }
 

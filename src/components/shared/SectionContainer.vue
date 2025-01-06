@@ -27,7 +27,7 @@ export default {
 <style scoped>
 .section-container {
   position: relative;
-  border-left: 2px solid #e2e6ee;
+  border-left: 2px solid var(--divider-color);
   padding-bottom: 48px;
 }
 
@@ -44,7 +44,7 @@ export default {
   left: -18px;
   width: 32px;
   height: 32px;
-  background: #ffffff;
+  background: var(--white-color);
   box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.05), 0px 12px 48px rgba(0, 0, 0, 0.04),
     inset 0px 2px 2px rgba(0, 0, 0, 0.04);
   border-radius: 50%;
@@ -57,7 +57,7 @@ export default {
 .section-dot {
   width: 9px;
   height: 9px;
-  background: #5531a7;
+  background: var(--background-dark);
   border-radius: 50%;
 }
 
@@ -66,7 +66,7 @@ export default {
   font-weight: 500;
   font-size: 24px;
   line-height: 32px;
-  color: #2e2e48;
+  color: var(--text-color);
   margin-left: 50px;
 }
 

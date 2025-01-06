@@ -1,0 +1,16 @@
+:root {
+  --text-color: #2e2e48;
+  --muted-text: #79819a;
+  --secondary-color: #47516b;
+  --white-color: #ffffff;
+
+  --primary-color: #f7f9fc;
+  --card-background: #f7f9fc;
+
+  --highlight-background: #efe2f9;
+  --highlight-text: #9251f7;
+
+  --divider-color: #e2e6ee;
+  --accent-color: #5d5fef;
+  --action-color: #516cf7;
+}

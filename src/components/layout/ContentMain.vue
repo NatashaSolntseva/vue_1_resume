@@ -26,11 +26,11 @@ import ProjectList from "../sections/ProjectList.vue";
 import ToolList from "../sections/ToolList.vue";
 import AchievementList from "../sections/AchievementList.vue";
 
-import { EDUCATION } from "../../constants/education.ts";
-import { ACHIEVEMENTS } from "../../constants/achievements.ts";
-import { CERTIFICATES } from "../../constants/certificates.ts";
-import { PROJECTS } from "../../constants/projects.ts";
-import { TOOLS } from "../../constants/tools.ts";
+import { EDUCATION } from "../../constants/content/education.ts";
+import { ACHIEVEMENTS } from "../../constants/content/achievements.ts";
+import { CERTIFICATES } from "../../constants/content/certificates.ts";
+import { PROJECTS } from "../../constants/content/projects.ts";
+import { TOOLS } from "../../constants/content/tools.ts";
 
 export default {
   name: "ContentMain",

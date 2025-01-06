@@ -75,7 +75,7 @@ export default {
 .achievement-list-marker {
   flex: 0 0 6px;
   height: 6px;
-  background-color: #2e2e48;
+  background-color: var(--text-color);
   border-radius: 50%;
   margin-left: 9px;
 }
@@ -99,8 +99,8 @@ export default {
 }
 
 .achievement-date--highlight {
-  background-color: #efe2f9;
-  color: #9251f7;
+  background-color: var(--highlight-background);
+  color: var(--highlight-tex);
   padding: 2px;
   border-radius: 4px;
 }
@@ -112,7 +112,7 @@ export default {
 }
 
 .achievement-location {
-  color: #79819a;
+  color: var(--muted-text);
 }
 
 .achievement-content {
@@ -135,13 +135,13 @@ export default {
   font-size: 14px;
   line-height: 18px;
   font-weight: 500;
-  color: #2e2e48;
+  color: var(--text-color);
 }
 
 .achievement-role {
   font-size: 12px;
   line-height: 16px;
-  color: #79819a;
+  color: var(--muted-text);
   margin: 4px 0;
 }
 
@@ -149,6 +149,6 @@ export default {
   flex: 1;
   font-size: 12px;
   line-height: 100%;
-  color: #79819a;
+  color: var(--muted-text);
 }
 </style>

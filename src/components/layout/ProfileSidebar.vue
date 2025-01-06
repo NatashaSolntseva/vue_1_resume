@@ -23,10 +23,10 @@ import LanguageList from "../sections/LanguageList.vue";
 import HobbyList from "../sections/HobbyList.vue";
 import SectionTitle from "../shared/ProfileSectionTitle.vue";
 
-import { SOCIALS } from "../../constants/socials.ts";
-import { LANGUAGES } from "../../constants/languages.ts";
-import { HOBBIES } from "../../constants/hobbies.ts";
-import { CONTACTS } from "../../constants/contacts.ts";
+import { SOCIALS } from "../../constants/profile/socials.ts";
+import { LANGUAGES } from "../../constants/profile/languages.ts";
+import { HOBBIES } from "../../constants/profile/hobbies.ts";
+import { CONTACTS } from "../../constants/profile/contacts.ts";
 
 //TODO alias не работает
 
@@ -55,7 +55,7 @@ export default {
 <style scoped>
 .profile-sidebar {
   flex: 0 0 360px;
-  background-color: #f7f9fc;
+  background-color: var(--primary-color);
   padding: 48px;
 }
 </style>

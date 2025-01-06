@@ -11,7 +11,7 @@ export default {
 <style scoped>
 .divider {
   height: 1px;
-  background-color: #e2e6ee;
+  background-color: var(--divider-color);
   width: 100%;
 }
 </style>

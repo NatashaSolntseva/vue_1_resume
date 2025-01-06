@@ -42,7 +42,7 @@ export default {
   font-weight: 500;
   font-size: 32px;
   line-height: 40px;
-  color: #2e2e48;
+  color: var(--text-color);
   letter-spacing: -0.02em;
   margin-bottom: 10px;
 }
@@ -51,7 +51,7 @@ export default {
   font-family: "OutFit";
   font-weight: 500;
   font-size: 18px;
-  color: #47516b;
+  color: var(--secondary-color);
   line-height: 24px;
   letter-spacing: 0.02em;
   margin-bottom: 10px;
