@@ -1,7 +1,36 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div></div>
+  <div class="app">
+    <ProfileSidebar />
+    <ContentMain />
+  </div>
 </template>
 
-<style scoped></style>
+<script>
+import ProfileSidebar from "./components/layout/ProfileSidebar.vue";
+import ContentMain from "./components/layout/ContentMain.vue";
+
+export default {
+  name: "App",
+  components: {
+    ProfileSidebar,
+    ContentMain,
+  },
+};
+</script>
+
+<style scoped>
+.app {
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .app {
+    flex-direction: column;
+  }
+}
+</style>
