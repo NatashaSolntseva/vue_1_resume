@@ -67,7 +67,7 @@ export default {
   font-size: 24px;
   line-height: 32px;
   color: #2e2e48;
-  margin-left: 16px;
+  margin-left: 50px;
 }
 
 .section-content {
