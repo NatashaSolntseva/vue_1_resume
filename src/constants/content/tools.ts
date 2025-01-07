@@ -1,41 +1,50 @@
+import figmaIcon from '@/assets/images/figma.png'
+import javaIcon from '@/assets/images/java.png'
+import pythonIcon from '@/assets/images/python.png'
+import htmlIcon from '@/assets/images/html.png'
+import cssIcon from '@/assets/images/css.png'
+import wordpressIcon from '@/assets/images/wordpress.png'
+import vscodeIcon from '@/assets/images/vscode.png'
+import notionIcon from '@/assets/images/notion.png'
+
 export const TOOLS = [
   {
-    icon: '/src/assets/images/figma.png',
+    icon: figmaIcon,
     name: 'Figma',
     description: 'Web UI Design, Prototyping'
   },
   {
-    icon: '/src/assets/images/java.png',
+    icon: javaIcon,
     name: 'Java',
     description: 'Software Development'
   },
   {
-    icon: '/src/assets/images/python.png',
+    icon: pythonIcon,
     name: 'Python',
     description: 'Design workspace'
   },
   {
-    icon: '/src/assets/images/html.png',
+    icon: htmlIcon,
     name: 'HTML 5',
     description: 'Structural Design'
   },
   {
-    icon: '/src/assets/images/css.png',
+    icon: cssIcon,
     name: 'CSS 3',
     description: 'Style Design'
   },
   {
-    icon: '/src/assets/images/wordpress.png',
+    icon: wordpressIcon,
     name: 'Wordpress',
     description: 'Web development'
   },
   {
-    icon: '/src/assets/images/vscode.png',
+    icon: vscodeIcon,
     name: 'VS Code',
     description: 'Code editor'
   },
   {
-    icon: '/src/assets/images/notion.png',
+    icon: notionIcon,
     name: 'Notion',
     description: 'Project management'
   }

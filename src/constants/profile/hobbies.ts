@@ -1,18 +1,23 @@
+import gamingIcon from '@/assets/icons/gaming.svg'
+import travelIcon from '@/assets/icons/travel.svg'
+import drawIcon from '@/assets/icons/draw.svg'
+import bloggingIcon from '@/assets/icons/blogging.svg'
+
 export const HOBBIES = [
   {
-    icon: '/src/assets/icons/gaming.svg',
+    icon: gamingIcon,
     label: 'Gaming'
   },
   {
-    icon: '/src/assets/icons/travel.svg',
+    icon: travelIcon,
     label: 'Travelling'
   },
   {
-    icon: '/src/assets/icons/draw.svg',
+    icon: drawIcon,
     label: 'Sketching/Graffiti'
   },
   {
-    icon: '/src/assets/icons/blogging.svg',
+    icon: bloggingIcon,
     label: 'Blogging'
   }
 ]

@@ -1,9 +1,14 @@
+import alexaIcon from '@/assets/icons/alexa.svg'
+import githubIcon from '@/assets/images/github.png'
+import winterOfCodeIcon from '@/assets/images/winter_of_code.png'
+import googleIcon from '@/assets/icons/google.svg'
+
 export const ACHIEVEMENTS = [
   {
     date: 'Present',
     location: 'Chandigarh',
     mode: '',
-    icon: '/src/assets/icons/alexa.svg',
+    icon: alexaIcon,
     title: 'Alexa Dev Community',
     role: 'Graphic Designer',
     description:
@@ -13,7 +18,7 @@ export const ACHIEVEMENTS = [
     date: 'Oct 2021 - Nov 2021',
     location: '',
     mode: 'Online',
-    icon: '/src/assets/images/github.png',
+    icon: githubIcon,
     title: 'GitHub',
     role: 'Hacktoberfest Contributor',
     description:
@@ -23,7 +28,7 @@ export const ACHIEVEMENTS = [
     date: 'Jan 2021 - March 2021',
     location: '',
     mode: 'Online',
-    icon: '/src/assets/images/winter_of_code.png',
+    icon: winterOfCodeIcon,
     title: 'Winter of Code',
     role: 'Contributor',
     description:
@@ -33,7 +38,7 @@ export const ACHIEVEMENTS = [
     date: 'Oct 2020 - Dec 2020',
     location: '',
     mode: 'Online',
-    icon: '/src/assets/icons/google.svg',
+    icon: googleIcon,
     title: 'Google',
     role: '30Days of Google Cloud',
     description:

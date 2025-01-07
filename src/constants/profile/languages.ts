@@ -1,17 +1,23 @@
-export const LANGUAGES = [
+import gamingIcon from '@/assets/icons/gaming.svg'
+import travelIcon from '@/assets/icons/travel.svg'
+import drawIcon from '@/assets/icons/draw.svg'
+import bloggingIcon from '@/assets/icons/blogging.svg'
+
+export const HOBBIES = [
   {
-    icon: '/src/assets/icons/flag_hindi.svg',
-    label: 'Hindi',
-    level: 'Native'
+    icon: gamingIcon,
+    label: 'Gaming'
   },
   {
-    icon: '/src/assets/icons/flag_eng.svg',
-    label: 'English',
-    level: 'Professional working'
+    icon: travelIcon,
+    label: 'Travelling'
   },
   {
-    icon: '/src/assets/icons/flag_spanish.svg',
-    label: 'Spanish',
-    level: 'Elementary'
+    icon: drawIcon,
+    label: 'Sketching/Graffiti'
+  },
+  {
+    icon: bloggingIcon,
+    label: 'Blogging'
   }
 ]
