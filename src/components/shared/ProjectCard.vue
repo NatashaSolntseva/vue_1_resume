@@ -95,6 +95,7 @@ export default {
   font-weight: 500;
   color: var(--action-color);
   text-decoration: none;
+  word-break: break-word;
 }
 
 .project-link::after {
@@ -109,5 +110,16 @@ export default {
 }
 .project-link:hover::after {
   width: 100%;
+}
+
+@media (max-width: 500px) {
+  .project-card-header {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .project-footer {
+    margin-top: 8px;
+  }
 }
 </style>

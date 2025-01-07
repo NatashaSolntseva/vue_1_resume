@@ -38,4 +38,10 @@ export default {
   overflow: hidden;
   margin-left: 23px;
 }
+
+@media (max-width: 1000px) {
+  .certificate-list {
+    margin-left: 0px;
+  }
+}
 </style>

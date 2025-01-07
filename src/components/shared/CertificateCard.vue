@@ -1,12 +1,14 @@
 <template>
   <div class="certificate-card">
     <img class="certificate-logo" :src="logo" :alt="organization" />
-    <div class="certificate-content">
-      <p class="certificate-organization">{{ organization }}</p>
-      <h4 class="certificate-title">{{ title }}</h4>
-    </div>
-    <div class="certificate-date">
-      <span>{{ date }}</span>
+    <div class="certificate-wrapper">
+      <div class="certificate-content">
+        <p class="certificate-organization">{{ organization }}</p>
+        <h4 class="certificate-title">{{ title }}</h4>
+      </div>
+      <div class="certificate-date">
+        <span>{{ date }}</span>
+      </div>
     </div>
   </div>
 </template>
@@ -51,8 +53,10 @@ export default {
   margin-right: 16px;
 }
 
-.certificate-content {
+.certificate-wrapper {
   flex: 1;
+  display: flex;
+  justify-content: space-between;
 }
 
 .certificate-title {
@@ -74,5 +78,13 @@ export default {
   line-height: 16px;
   color: var(--secondary-color);
   text-align: right;
+}
+
+@media (max-width: 1000px) {
+  .certificate-wrapper {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
 }
 </style>

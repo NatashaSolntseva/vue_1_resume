@@ -69,4 +69,21 @@ export default {
   grid-column: 13/16;
   grid-row: 2/3;
 }
+
+@media (max-width: 1000px) {
+  .tool-list {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+  }
+
+  .tool-list > * {
+    grid-column: auto !important;
+    grid-row: auto !important;
+  }
+}
+@media (max-width: 850px) {
+  .tool-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
 </style>

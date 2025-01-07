@@ -38,4 +38,9 @@ export default {
   border-radius: 8px;
   overflow: hidden;
 }
+@media (max-width: 500px) {
+  .project-list {
+    grid-template-columns: 1fr;
+  }
+}
 </style>
