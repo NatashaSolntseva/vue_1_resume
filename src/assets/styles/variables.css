@@ -14,4 +14,7 @@
   --divider-color: #e2e6ee;
   --accent-color: #5d5fef;
   --action-color: #516cf7;
+
+  --font-main: 'DMSans', sans-serif;
+  --font-heading: 'OutFit', sans-serif;
 }

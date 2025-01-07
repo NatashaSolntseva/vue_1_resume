@@ -33,7 +33,7 @@ export default {
 }
 
 .profile-name {
-  font-family: 'OutFit';
+  font-family: var(--font-heading);
   font-weight: 500;
   font-size: 32px;
   line-height: 40px;
@@ -43,7 +43,7 @@ export default {
 }
 
 .profile-description {
-  font-family: 'OutFit';
+  font-family: var(--font-heading);
   font-weight: 500;
   font-size: 18px;
   color: var(--secondary-color);

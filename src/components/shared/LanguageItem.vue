@@ -48,7 +48,7 @@ export default {
 }
 
 .language-label {
-  font-family: 'DMSans';
+  font-family: var(--font-main);
   font-weight: 500;
   font-size: 14px;
   line-height: 18px;
