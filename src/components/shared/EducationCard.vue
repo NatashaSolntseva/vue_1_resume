@@ -48,10 +48,8 @@ export default {
   display: flex;
   flex-direction: column;
   padding: 16px 24px;
-  background-color: #f7f9fc;
-  border-radius: 8.06734px 0px 0px 8.06734px;
+  background-color: var(--card-background);
   width: 100%;
-  max-width: 227px;
 }
 
 .education-main-info {

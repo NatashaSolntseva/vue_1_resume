@@ -35,5 +35,7 @@ export default {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(227px, 1fr));
   gap: 8px;
+  border-radius: 8px;
+  overflow: hidden;
 }
 </style>

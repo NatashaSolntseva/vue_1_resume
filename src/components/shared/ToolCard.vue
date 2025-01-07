@@ -34,8 +34,7 @@ export default {
   flex-direction: column;
   align-items: center;
   background: var(--card-background);
-  border-radius: 8px;
-  padding: 16px;
+  padding: 19px;
   text-align: center;
   gap: 8px;
 }

@@ -58,14 +58,6 @@ export default {
   padding: 24px;
 }
 
-.project-card:nth-child(odd) {
-  border-radius: 8px 0px 0px 8px;
-}
-
-.project-card:nth-child(even) {
-  border-radius: 0px 8px 8px 0px;
-}
-
 .project-card-header {
   display: flex;
   gap: 16px;

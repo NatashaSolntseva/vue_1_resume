@@ -34,5 +34,7 @@ export default {
   display: flex;
   flex-direction: column;
   gap: 8px;
+  border-radius: 8px 8px 0 0;
+  overflow: hidden;
 }
 </style>

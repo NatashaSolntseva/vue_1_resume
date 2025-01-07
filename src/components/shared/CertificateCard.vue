@@ -44,10 +44,6 @@ export default {
   padding: 16px;
 }
 
-.certificate-card:first-child {
-  border-radius: 8px 8px 0px 0px;
-}
-
 .certificate-logo {
   width: 48px;
   height: 48px;
