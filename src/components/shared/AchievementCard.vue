@@ -37,11 +37,13 @@ export default {
     },
     location: {
       type: String,
-      required: false
+      required: false,
+      default: ''
     },
     mode: {
       type: String,
-      required: false
+      required: false,
+      default: ''
     },
     icon: {
       type: String,
