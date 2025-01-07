@@ -7,7 +7,7 @@
       :title="project.title"
       :description="project.description"
       :link="project.link"
-      :linkIcon="project.linkIcon"
+      :link-icon="project.linkIcon"
     />
   </div>
 </template>

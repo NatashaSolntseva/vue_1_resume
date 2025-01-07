@@ -1,12 +1,12 @@
 <template>
   <div class="profile-sidebar">
     <ProfileCard />
-    <Divider />
+    <SectionDivider />
     <ContactList :contacts="contacts" />
-    <Divider />
+    <SectionDivider />
     <SectionTitle text="Socials" />
     <SocialList :socials="socials" />
-    <Divider />
+    <SectionDivider />
     <SectionTitle text="Languages" />
     <LanguageList :languages="languages" />
     <SectionTitle text="Hobbies & Interests" />
@@ -16,7 +16,7 @@
 
 <script>
 import ProfileCard from '@/components/sections/ProfileCard.vue'
-import Divider from '@/components/shared/Divider.vue'
+import SectionDivider from '@/components/shared/Divider.vue'
 import ContactList from '@/components/sections/ContactList.vue'
 import SocialList from '@/components/sections/SocialList.vue'
 import LanguageList from '@/components/sections/LanguageList.vue'
@@ -32,7 +32,7 @@ export default {
   name: 'ProfileSidebar',
   components: {
     ProfileCard,
-    Divider,
+    SectionDivider,
     ContactList,
     SocialList,
     LanguageList,
