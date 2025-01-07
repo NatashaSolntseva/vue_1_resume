@@ -10,21 +10,21 @@
 </template>
 
 <script>
-import HobbyItem from "@/components/shared/HobbyItem.vue";
+import HobbyItem from '@/components/shared/HobbyItem.vue'
 
 export default {
-  name: "HobbyList",
+  name: 'HobbyList',
   components: {
-    HobbyItem,
+    HobbyItem
   },
   props: {
     hobbies: {
       type: Array,
       required: true,
-      default: () => [],
-    },
-  },
-};
+      default: () => []
+    }
+  }
+}
 </script>
 
 <style scoped></style>

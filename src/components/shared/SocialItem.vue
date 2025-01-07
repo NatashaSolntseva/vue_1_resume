@@ -3,12 +3,7 @@
     <img class="social-icon" :src="icon" :alt="label" />
     <div class="social-content">
       <span class="social-label">{{ label }}</span>
-      <a
-        :href="link"
-        class="social-value"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
+      <a :href="link" class="social-value" target="_blank" rel="noopener noreferrer">
         {{ value }}
       </a>
     </div>
@@ -17,26 +12,26 @@
 
 <script>
 export default {
-  name: "SocialItem",
+  name: 'SocialItem',
   props: {
     icon: {
       type: String,
-      required: true,
+      required: true
     },
     label: {
       type: String,
-      required: true,
+      required: true
     },
     value: {
       type: String,
-      required: true,
+      required: true
     },
     link: {
       type: String,
-      required: true,
-    },
-  },
-};
+      required: true
+    }
+  }
+}
 </script>
 
 <style scoped>
@@ -65,7 +60,7 @@ export default {
 }
 
 .social-value {
-  font-family: "DMSans";
+  font-family: 'DMSans';
   font-weight: 500;
   font-size: 14px;
   line-height: 18px;

@@ -15,21 +15,21 @@
 </template>
 
 <script>
-import AchievementCard from "@/components/shared/AchievementCard.vue";
+import AchievementCard from '@/components/shared/AchievementCard.vue'
 
 export default {
-  name: "AchievementList",
+  name: 'AchievementList',
   components: {
-    AchievementCard,
+    AchievementCard
   },
   props: {
     achievements: {
       type: Array,
       required: true,
-      default: () => [],
-    },
-  },
-};
+      default: () => []
+    }
+  }
+}
 </script>
 
 <style scoped>

@@ -12,21 +12,21 @@
 </template>
 
 <script>
-import SocialItem from "@/components/shared/SocialItem.vue";
+import SocialItem from '@/components/shared/SocialItem.vue'
 
 export default {
-  name: "SocialList",
+  name: 'SocialList',
   components: {
-    SocialItem,
+    SocialItem
   },
   props: {
     socials: {
       type: Array,
       required: true,
-      default: () => [],
-    },
-  },
-};
+      default: () => []
+    }
+  }
+}
 </script>
 
 <style scoped></style>

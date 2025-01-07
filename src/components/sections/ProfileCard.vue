@@ -1,23 +1,18 @@
 <template>
   <div class="profile-card">
-    <img
-      class="profile-avatar"
-      src="@/assets/images/avatar.png"
-      alt="Profile Avatar"
-    />
+    <img class="profile-avatar" src="@/assets/images/avatar.png" alt="Profile Avatar" />
     <h2 class="profile-name">Anurag Yadav</h2>
     <p class="profile-description">
-      A well-organized, creative and goal-oriented graduate possessing excellent
-      communication, problem-solving and leadership skills with a flair to
-      explore Computer Science Engineering.
+      A well-organized, creative and goal-oriented graduate possessing excellent communication,
+      problem-solving and leadership skills with a flair to explore Computer Science Engineering.
     </p>
   </div>
 </template>
 
 <script>
 export default {
-  name: "ProfileCard",
-};
+  name: 'ProfileCard'
+}
 </script>
 
 <style scoped>
@@ -38,7 +33,7 @@ export default {
 }
 
 .profile-name {
-  font-family: "OutFit";
+  font-family: 'OutFit';
   font-weight: 500;
   font-size: 32px;
   line-height: 40px;
@@ -48,7 +43,7 @@ export default {
 }
 
 .profile-description {
-  font-family: "OutFit";
+  font-family: 'OutFit';
   font-weight: 500;
   font-size: 18px;
   color: var(--secondary-color);

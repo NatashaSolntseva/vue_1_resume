@@ -10,22 +10,22 @@
 
 <script>
 export default {
-  name: "LanguageItem",
+  name: 'LanguageItem',
   props: {
     icon: {
       type: String,
-      required: true,
+      required: true
     },
     label: {
       type: String,
-      required: true,
+      required: true
     },
     level: {
       type: String,
-      required: true,
-    },
-  },
-};
+      required: true
+    }
+  }
+}
 </script>
 
 <style scoped>
@@ -48,7 +48,7 @@ export default {
 }
 
 .language-label {
-  font-family: "DMSans";
+  font-family: 'DMSans';
   font-weight: 500;
   font-size: 14px;
   line-height: 18px;

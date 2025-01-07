@@ -9,12 +9,7 @@
     </div>
     <div class="project-footer">
       <img class="project-link-icon" :src="linkIcon" alt="icon" />
-      <a
-        class="project-link"
-        :href="link"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
+      <a class="project-link" :href="link" target="_blank" rel="noopener noreferrer">
         {{ link }}
       </a>
     </div>
@@ -23,30 +18,30 @@
 
 <script>
 export default {
-  name: "ProjectCard",
+  name: 'ProjectCard',
   props: {
     icon: {
       type: String,
-      required: true,
+      required: true
     },
     title: {
       type: String,
-      required: true,
+      required: true
     },
     description: {
       type: String,
-      required: true,
+      required: true
     },
     linkIcon: {
       type: String,
-      required: true,
+      required: true
     },
     link: {
       type: String,
-      required: true,
-    },
-  },
-};
+      required: true
+    }
+  }
+}
 </script>
 
 <style scoped>

@@ -12,21 +12,21 @@
 </template>
 
 <script>
-import ContactItem from "@/components/shared/ContactItem.vue";
+import ContactItem from '@/components/shared/ContactItem.vue'
 
 export default {
-  name: "ContactList",
+  name: 'ContactList',
   components: {
-    ContactItem,
+    ContactItem
   },
   props: {
     contacts: {
       type: Array,
       required: true,
-      default: () => [],
-    },
-  },
-};
+      default: () => []
+    }
+  }
+}
 </script>
 
 <style scoped>

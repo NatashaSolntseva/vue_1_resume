@@ -13,26 +13,26 @@
 
 <script>
 export default {
-  name: "CertificateCard",
+  name: 'CertificateCard',
   props: {
     logo: {
       type: String,
-      required: true,
+      required: true
     },
     title: {
       type: String,
-      required: true,
+      required: true
     },
     organization: {
       type: String,
-      required: true,
+      required: true
     },
     date: {
       type: String,
-      required: true,
-    },
-  },
-};
+      required: true
+    }
+  }
+}
 </script>
 
 <style scoped>

@@ -11,21 +11,21 @@
 </template>
 
 <script>
-import LanguageItem from "@/components/shared/LanguageItem.vue";
+import LanguageItem from '@/components/shared/LanguageItem.vue'
 
 export default {
-  name: "LanguageList",
+  name: 'LanguageList',
   components: {
-    LanguageItem,
+    LanguageItem
   },
   props: {
     languages: {
       type: Array,
       required: true,
-      default: () => [],
-    },
-  },
-};
+      default: () => []
+    }
+  }
+}
 </script>
 
 <style scoped></style>

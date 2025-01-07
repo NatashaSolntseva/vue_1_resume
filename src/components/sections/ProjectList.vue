@@ -13,21 +13,21 @@
 </template>
 
 <script>
-import ProjectCard from "@/components/shared/ProjectCard.vue";
+import ProjectCard from '@/components/shared/ProjectCard.vue'
 
 export default {
-  name: "ProjectList",
+  name: 'ProjectList',
   components: {
-    ProjectCard,
+    ProjectCard
   },
   props: {
     projects: {
       type: Array,
       required: true,
-      default: () => [],
-    },
-  },
-};
+      default: () => []
+    }
+  }
+}
 </script>
 
 <style scoped>

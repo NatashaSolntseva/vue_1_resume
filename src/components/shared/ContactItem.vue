@@ -3,13 +3,7 @@
     <img class="contact-icon" :src="icon" :alt="label" />
     <div class="contact-content">
       <span class="contact-label">{{ label }}</span>
-      <a
-        v-if="link"
-        :href="link"
-        class="contact-value"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
+      <a v-if="link" :href="link" class="contact-value" target="_blank" rel="noopener noreferrer">
         {{ value }}
       </a>
       <span v-else class="contact-value">{{ value }}</span>
@@ -19,26 +13,26 @@
 
 <script>
 export default {
-  name: "ContactItem",
+  name: 'ContactItem',
   props: {
     icon: {
       type: String,
-      required: true,
+      required: true
     },
     label: {
       type: String,
-      required: true,
+      required: true
     },
     value: {
       type: String,
-      required: true,
+      required: true
     },
     link: {
       type: String,
-      required: true,
-    },
-  },
-};
+      required: true
+    }
+  }
+}
 </script>
 
 <style scoped>
@@ -67,7 +61,7 @@ export default {
 }
 
 .contact-value {
-  font-family: "DMSans";
+  font-family: 'DMSans';
   font-weight: 500;
   font-size: 14px;
   line-height: 18px;

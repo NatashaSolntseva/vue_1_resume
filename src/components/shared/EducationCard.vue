@@ -17,30 +17,30 @@
 
 <script>
 export default {
-  name: "EducationCard",
+  name: 'EducationCard',
   props: {
     logo: {
       type: String,
-      required: true,
+      required: true
     },
     institution: {
       type: String,
-      required: true,
+      required: true
     },
     degree: {
       type: String,
-      required: true,
+      required: true
     },
     period: {
       type: String,
-      required: true,
+      required: true
     },
     percentage: {
       type: String,
-      required: true,
-    },
-  },
-};
+      required: true
+    }
+  }
+}
 </script>
 
 <style scoped>

@@ -14,14 +14,14 @@
 
 <script>
 export default {
-  name: "SectionContainer",
+  name: 'SectionContainer',
   props: {
     title: {
       type: String,
-      required: true,
-    },
-  },
-};
+      required: true
+    }
+  }
+}
 </script>
 
 <style scoped>
@@ -45,7 +45,9 @@ export default {
   width: 32px;
   height: 32px;
   background: var(--white-color);
-  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.05), 0px 12px 48px rgba(0, 0, 0, 0.04),
+  box-shadow:
+    0px 2px 8px rgba(0, 0, 0, 0.05),
+    0px 12px 48px rgba(0, 0, 0, 0.04),
     inset 0px 2px 2px rgba(0, 0, 0, 0.04);
   border-radius: 50%;
   display: flex;
@@ -62,7 +64,7 @@ export default {
 }
 
 .section-title {
-  font-family: "OutFit", sans-serif;
+  font-family: 'OutFit', sans-serif;
   font-weight: 500;
   font-size: 24px;
   line-height: 32px;

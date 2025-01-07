@@ -6,14 +6,14 @@
 
 <script>
 export default {
-  name: "ProfileSectionTitle",
+  name: 'ProfileSectionTitle',
   props: {
     text: {
       type: String,
-      required: true,
-    },
-  },
-};
+      required: true
+    }
+  }
+}
 </script>
 
 <style scoped>

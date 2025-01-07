@@ -19,28 +19,28 @@
 </template>
 
 <script>
-import SectionContainer from "@/components/shared/SectionContainer.vue";
-import EducationList from "@/components/sections/EducationList.vue";
-import CertificateList from "@/components/sections/CertificateList.vue";
-import ProjectList from "@/components/sections/ProjectList.vue";
-import ToolList from "@/components/sections/ToolList.vue";
-import AchievementList from "@/components/sections/AchievementList.vue";
+import SectionContainer from '@/components/shared/SectionContainer.vue'
+import EducationList from '@/components/sections/EducationList.vue'
+import CertificateList from '@/components/sections/CertificateList.vue'
+import ProjectList from '@/components/sections/ProjectList.vue'
+import ToolList from '@/components/sections/ToolList.vue'
+import AchievementList from '@/components/sections/AchievementList.vue'
 
-import { EDUCATION } from "@/constants/content/education.ts";
-import { ACHIEVEMENTS } from "@/constants/content/achievements.ts";
-import { CERTIFICATES } from "@/constants/content/certificates.ts";
-import { PROJECTS } from "@/constants/content/projects.ts";
-import { TOOLS } from "@/constants/content/tools.ts";
+import { EDUCATION } from '@/constants/content/education.ts'
+import { ACHIEVEMENTS } from '@/constants/content/achievements.ts'
+import { CERTIFICATES } from '@/constants/content/certificates.ts'
+import { PROJECTS } from '@/constants/content/projects.ts'
+import { TOOLS } from '@/constants/content/tools.ts'
 
 export default {
-  name: "ContentMain",
+  name: 'ContentMain',
   components: {
     SectionContainer,
     EducationList,
     CertificateList,
     ProjectList,
     ToolList,
-    AchievementList,
+    AchievementList
   },
   data() {
     return {
@@ -48,10 +48,10 @@ export default {
       certificates: CERTIFICATES,
       projects: PROJECTS,
       tools: TOOLS,
-      achievements: ACHIEVEMENTS,
-    };
-  },
-};
+      achievements: ACHIEVEMENTS
+    }
+  }
+}
 </script>
 
 <style scoped>

@@ -7,18 +7,18 @@
 
 <script>
 export default {
-  name: "HobbyItem",
+  name: 'HobbyItem',
   props: {
     icon: {
       type: String,
-      required: true,
+      required: true
     },
     label: {
       type: String,
-      required: true,
-    },
-  },
-};
+      required: true
+    }
+  }
+}
 </script>
 
 <style scoped>
@@ -36,7 +36,7 @@ export default {
 }
 
 .hobby-label {
-  font-family: "DMSans";
+  font-family: 'DMSans';
   font-weight: 500;
   font-size: 14px;
   line-height: 18px;

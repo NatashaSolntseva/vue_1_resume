@@ -15,21 +15,21 @@
 </template>
 
 <script>
-import ProfileCard from "@/components/sections/ProfileCard.vue";
-import Divider from "@/components/shared/Divider.vue";
-import ContactList from "@/components/sections/ContactList.vue";
-import SocialList from "@/components/sections/SocialList.vue";
-import LanguageList from "@/components/sections/LanguageList.vue";
-import HobbyList from "@/components/sections/HobbyList.vue";
-import SectionTitle from "@/components/shared/ProfileSectionTitle.vue";
+import ProfileCard from '@/components/sections/ProfileCard.vue'
+import Divider from '@/components/shared/Divider.vue'
+import ContactList from '@/components/sections/ContactList.vue'
+import SocialList from '@/components/sections/SocialList.vue'
+import LanguageList from '@/components/sections/LanguageList.vue'
+import HobbyList from '@/components/sections/HobbyList.vue'
+import SectionTitle from '@/components/shared/ProfileSectionTitle.vue'
 
-import { SOCIALS } from "@/constants/profile/socials.ts";
-import { LANGUAGES } from "@/constants/profile/languages.ts";
-import { HOBBIES } from "@/constants/profile/hobbies.ts";
-import { CONTACTS } from "@/constants/profile/contacts.ts";
+import { SOCIALS } from '@/constants/profile/socials.ts'
+import { LANGUAGES } from '@/constants/profile/languages.ts'
+import { HOBBIES } from '@/constants/profile/hobbies.ts'
+import { CONTACTS } from '@/constants/profile/contacts.ts'
 
 export default {
-  name: "ProfileSidebar",
+  name: 'ProfileSidebar',
   components: {
     ProfileCard,
     Divider,
@@ -37,17 +37,17 @@ export default {
     SocialList,
     LanguageList,
     HobbyList,
-    SectionTitle,
+    SectionTitle
   },
   data() {
     return {
       languages: LANGUAGES,
       hobbies: HOBBIES,
       socials: SOCIALS,
-      contacts: CONTACTS,
-    };
-  },
-};
+      contacts: CONTACTS
+    }
+  }
+}
 </script>
 
 <style scoped>

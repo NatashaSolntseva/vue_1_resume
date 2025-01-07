@@ -11,21 +11,21 @@
 </template>
 
 <script>
-import ToolCard from "@/components/shared/ToolCard.vue";
+import ToolCard from '@/components/shared/ToolCard.vue'
 
 export default {
-  name: "ToolList",
+  name: 'ToolList',
   components: {
-    ToolCard,
+    ToolCard
   },
   props: {
     tools: {
       type: Array,
       required: true,
-      default: () => [],
-    },
-  },
-};
+      default: () => []
+    }
+  }
+}
 </script>
 
 <style scoped>

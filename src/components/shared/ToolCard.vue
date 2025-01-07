@@ -10,22 +10,22 @@
 
 <script>
 export default {
-  name: "ToolCard",
+  name: 'ToolCard',
   props: {
     icon: {
       type: String,
-      required: true,
+      required: true
     },
     name: {
       type: String,
-      required: true,
+      required: true
     },
     description: {
       type: String,
-      required: true,
-    },
-  },
-};
+      required: true
+    }
+  }
+}
 </script>
 
 <style scoped>

@@ -9,11 +9,7 @@
         >
           {{ date }}
         </span>
-        <img
-          class="location-icon"
-          src="@/assets/icons/location_small.svg"
-          alt="icon"
-        />
+        <img class="location-icon" src="@/assets/icons/location_small.svg" alt="icon" />
         <span v-if="location" class="achievement-location">{{ location }}</span>
         <span v-if="mode" class="achievement-location">{{ mode }}</span>
       </div>
@@ -31,38 +27,38 @@
 
 <script>
 export default {
-  name: "AchievementCard",
+  name: 'AchievementCard',
   props: {
     date: {
       type: String,
-      required: true,
+      required: true
     },
     location: {
       type: String,
-      required: false,
+      required: false
     },
     mode: {
       type: String,
-      required: false,
+      required: false
     },
     icon: {
       type: String,
-      required: true,
+      required: true
     },
     title: {
       type: String,
-      required: true,
+      required: true
     },
     role: {
       type: String,
-      required: true,
+      required: true
     },
     description: {
       type: String,
-      required: true,
-    },
-  },
-};
+      required: true
+    }
+  }
+}
 </script>
 
 <style scoped>

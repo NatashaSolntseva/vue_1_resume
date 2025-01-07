@@ -13,21 +13,21 @@
 </template>
 
 <script>
-import EducationCard from "@/components/shared/EducationCard.vue";
+import EducationCard from '@/components/shared/EducationCard.vue'
 
 export default {
-  name: "EducationList",
+  name: 'EducationList',
   components: {
-    EducationCard,
+    EducationCard
   },
   props: {
     education: {
       type: Array,
       required: true,
-      default: () => [],
-    },
-  },
-};
+      default: () => []
+    }
+  }
+}
 </script>
 
 <style scoped>
