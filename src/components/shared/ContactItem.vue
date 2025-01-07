@@ -61,6 +61,7 @@ export default {
 }
 
 .contact-value {
+  position: relative;
   font-family: var(--font-main);
   font-weight: 500;
   font-size: 14px;
@@ -69,7 +70,18 @@ export default {
   text-decoration: none;
 }
 
-.contact-value:hover {
-  text-decoration: underline;
+.contact-value::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 0;
+  height: 1px;
+  background-color: var(--secondary-color);
+  transition: width 0.3s ease;
+}
+
+.contact-value:hover::after {
+  width: 100%;
 }
 </style>

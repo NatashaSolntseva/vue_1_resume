@@ -89,6 +89,7 @@ export default {
 }
 
 .project-link {
+  position: relative;
   font-size: 16px;
   line-height: 20px;
   font-weight: 500;
@@ -96,7 +97,17 @@ export default {
   text-decoration: none;
 }
 
-.project-link:hover {
-  text-decoration: underline;
+.project-link::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 0;
+  height: 1px;
+  background-color: var(--action-color);
+  transition: width 0.3s ease;
+}
+.project-link:hover::after {
+  width: 100%;
 }
 </style>

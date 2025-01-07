@@ -43,7 +43,7 @@ export default {
 }
 
 .profile-description {
-  font-family: var(--font-heading);
+  font-family: 'OutFit';
   font-weight: 500;
   font-size: 18px;
   color: var(--secondary-color);

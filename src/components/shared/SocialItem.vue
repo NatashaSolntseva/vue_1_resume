@@ -60,6 +60,7 @@ export default {
 }
 
 .social-value {
+  position: relative;
   font-family: var(--font-main);
   font-weight: 500;
   font-size: 14px;
@@ -68,7 +69,18 @@ export default {
   text-decoration: none;
 }
 
-.social-value:hover {
-  text-decoration: underline;
+.social-value::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 0;
+  height: 1px;
+  background-color: var(--secondary-color);
+  transition: width 0.3s ease;
+}
+
+.social-value:hover::after {
+  width: 100%;
 }
 </style>
