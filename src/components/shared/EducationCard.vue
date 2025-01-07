@@ -75,6 +75,7 @@ export default {
 .education-content {
   display: flex;
   flex-direction: column;
+  gap: 4px;
   max-width: 145px;
 }
 
