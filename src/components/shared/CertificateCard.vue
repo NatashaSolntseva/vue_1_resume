@@ -41,12 +41,12 @@ export default {
   align-items: center;
   justify-content: space-between;
   background: var(--primary-color);
-  padding: 16px;
+  padding: 16px 23px;
 }
 
 .certificate-logo {
-  width: 48px;
-  height: 48px;
+  width: 43px;
+  height: 43px;
   object-fit: contain;
   margin-right: 16px;
 }

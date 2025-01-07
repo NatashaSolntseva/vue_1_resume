@@ -28,7 +28,7 @@ export default {
 .section-container {
   position: relative;
   border-left: 2px solid var(--divider-color);
-  padding-bottom: 48px;
+  padding-bottom: 51px;
 }
 
 .section-header {

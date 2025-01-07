@@ -74,6 +74,7 @@ export default {
   background-color: var(--text-color);
   border-radius: 50%;
   margin-left: 9px;
+  margin-top: 3px;
 }
 
 .achievement-main {
@@ -85,6 +86,7 @@ export default {
 
 .achievement-header {
   display: flex;
+  align-items: center;
   gap: 8px;
   font-size: 10px;
   line-height: 100%;
@@ -96,8 +98,8 @@ export default {
 
 .achievement-date--highlight {
   background-color: var(--highlight-background);
-  color: var(--highlight-tex);
-  padding: 2px;
+  color: var(--highlight-text);
+  padding: 3px;
   border-radius: 4px;
 }
 

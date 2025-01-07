@@ -36,5 +36,6 @@ export default {
   gap: 8px;
   border-radius: 8px 8px 0 0;
   overflow: hidden;
+  margin-left: 23px;
 }
 </style>

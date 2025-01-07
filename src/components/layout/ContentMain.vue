@@ -57,6 +57,6 @@ export default {
 <style scoped>
 .content-main {
   flex: 1;
-  padding: 64px 32px 0 32px;
+  padding: 64px 47px 0 45px;
 }
 </style>

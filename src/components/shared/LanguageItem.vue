@@ -32,13 +32,12 @@ export default {
 .language-item {
   display: flex;
   align-items: center;
-  margin-bottom: 16px;
 }
 
 .language-icon {
   width: 32px;
   height: 24px;
-  margin-right: 8px;
+  margin-right: 16px;
   object-fit: contain;
 }
 
@@ -53,6 +52,7 @@ export default {
   font-size: 14px;
   line-height: 18px;
   color: var(--secondary-color);
+  margin-bottom: 5px;
 }
 
 .language-level {

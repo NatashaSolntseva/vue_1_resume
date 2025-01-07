@@ -79,7 +79,7 @@ export default {
   font-size: 14px;
   line-height: 18px;
   color: var(--muted-text);
-  margin: 4px 0;
+  margin-top: 4px;
 }
 
 .project-footer {

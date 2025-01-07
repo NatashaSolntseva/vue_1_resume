@@ -25,13 +25,12 @@ export default {
 .hobby-item {
   display: flex;
   align-items: center;
-  margin-bottom: 16px;
 }
 
 .hobby-icon {
   width: 34px;
   height: 34px;
-  margin-right: 8px;
+  margin-right: 16px;
   object-fit: contain;
 }
 

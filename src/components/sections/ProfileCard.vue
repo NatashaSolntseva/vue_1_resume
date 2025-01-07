@@ -39,7 +39,7 @@ export default {
   line-height: 40px;
   color: var(--text-color);
   letter-spacing: -0.02em;
-  margin-bottom: 10px;
+  margin-bottom: 32px;
 }
 
 .profile-description {
