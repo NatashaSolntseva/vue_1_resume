@@ -38,12 +38,11 @@ export default {
 .social-item {
   display: flex;
   align-items: center;
-  margin-bottom: 16px;
 }
 
 .social-icon {
-  width: 24px;
-  height: 24px;
+  width: 32px;
+  height: 32px;
   margin-right: 12px;
   object-fit: contain;
 }
@@ -57,6 +56,7 @@ export default {
   font-size: 12px;
   line-height: 16px;
   color: var(--muted-text);
+  margin-bottom: 5px;
 }
 
 .social-value {

@@ -52,8 +52,16 @@ export default {
 
 <style scoped>
 .profile-sidebar {
-  flex: 0 0 360px;
+  flex: 0 0 355px;
   background-color: var(--primary-color);
-  padding: 48px;
+  padding: 48px 8px 48px 48px;
+}
+
+@media (max-width: 1000px) {
+  .profile-sidebar {
+    flex: 0 0 300px;
+    background-color: var(--primary-color);
+    padding: 30px 10px 25px 30px;
+  }
 }
 </style>

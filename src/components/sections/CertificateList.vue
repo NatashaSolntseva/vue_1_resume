@@ -36,5 +36,12 @@ export default {
   gap: 8px;
   border-radius: 8px 8px 0 0;
   overflow: hidden;
+  margin-left: 23px;
+}
+
+@media (max-width: 1000px) {
+  .certificate-list {
+    margin-left: 0px;
+  }
 }
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <ul>
+  <ul class="language-list">
     <LanguageItem
       v-for="(language, index) in languages"
       :key="index"
@@ -28,4 +28,11 @@ export default {
 }
 </script>
 
-<style scoped></style>
+<style scoped>
+.language-list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+</style>

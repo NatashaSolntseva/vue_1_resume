@@ -31,6 +31,10 @@ export default {
 
 <style scoped>
 .contact-list {
-  padding: 32px 0px;
+  padding: 32px 20px 32px 0px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
 }
 </style>

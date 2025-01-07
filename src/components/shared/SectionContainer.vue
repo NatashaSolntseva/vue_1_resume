@@ -28,7 +28,7 @@ export default {
 .section-container {
   position: relative;
   border-left: 2px solid var(--divider-color);
-  padding-bottom: 48px;
+  padding-bottom: 51px;
 }
 
 .section-header {
@@ -74,5 +74,11 @@ export default {
 
 .section-content {
   padding: 16px 0 0 50px;
+}
+
+@media (max-width: 1000px) {
+  .section-content {
+    padding: 16px 0 0 30px;
+  }
 }
 </style>

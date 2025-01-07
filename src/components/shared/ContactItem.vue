@@ -39,13 +39,12 @@ export default {
 .contact-item {
   display: flex;
   align-items: center;
-  margin-bottom: 16px;
 }
 
 .contact-icon {
-  width: 24px;
-  height: 24px;
-  margin-right: 12px;
+  width: 32px;
+  height: 32px;
+  margin-right: 16px;
   object-fit: contain;
 }
 
@@ -58,6 +57,7 @@ export default {
   font-size: 12px;
   line-height: 16px;
   color: var(--muted-text);
+  margin-bottom: 5px;
 }
 
 .contact-value {
@@ -68,6 +68,7 @@ export default {
   line-height: 18px;
   color: var(--secondary-color);
   text-decoration: none;
+  word-break: break-word;
 }
 
 .contact-value::after {

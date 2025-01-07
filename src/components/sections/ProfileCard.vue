@@ -39,16 +39,28 @@ export default {
   line-height: 40px;
   color: var(--text-color);
   letter-spacing: -0.02em;
-  margin-bottom: 10px;
+  margin-bottom: 32px;
 }
 
 .profile-description {
-  font-family: 'OutFit';
+  font-family: var(--font-heading);
   font-weight: 500;
   font-size: 18px;
   color: var(--secondary-color);
   line-height: 24px;
   letter-spacing: 0.02em;
   margin-bottom: 10px;
+}
+
+@media (max-width: 1000px) {
+  .profile-name {
+    font-size: 25px;
+    line-height: 130%;
+  }
+
+  .profile-description {
+    font-size: 16px;
+    line-height: 130%;
+  }
 }
 </style>

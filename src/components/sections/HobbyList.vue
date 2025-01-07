@@ -1,5 +1,5 @@
 <template>
-  <ul>
+  <ul class="hobbies-list">
     <HobbyItem
       v-for="(hobby, index) in hobbies"
       :key="index"
@@ -27,4 +27,11 @@ export default {
 }
 </script>
 
-<style scoped></style>
+<style scoped>
+.hobbies-list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+</style>
