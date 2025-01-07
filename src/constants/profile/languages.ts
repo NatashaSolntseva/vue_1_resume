@@ -1,16 +1,20 @@
+import hindiFlagIcon from '@/assets/icons/flag_hindi.svg'
+import englishFlagIcon from '@/assets/icons/flag_eng.svg'
+import spanishFlagIcon from '@/assets/icons/flag_spanish.svg'
+
 export const LANGUAGES = [
   {
-    icon: '/src/assets/icons/flag_hindi.svg',
+    icon: hindiFlagIcon,
     label: 'Hindi',
     level: 'Native'
   },
   {
-    icon: '/src/assets/icons/flag_eng.svg',
+    icon: englishFlagIcon,
     label: 'English',
     level: 'Professional working'
   },
   {
-    icon: '/src/assets/icons/flag_spanish.svg',
+    icon: spanishFlagIcon,
     label: 'Spanish',
     level: 'Elementary'
   }
