@@ -12,22 +12,13 @@
   </div>
 </template>
 
-<script>
-import ProjectCard from '@/components/shared/ProjectCard.vue'
+<script setup lang="ts">
+import ProjectCard from '@/components/items/ProjectCard.vue'
+import type { Project } from '@/constants/content/projects'
 
-export default {
-  name: 'ProjectList',
-  components: {
-    ProjectCard
-  },
-  props: {
-    projects: {
-      type: Array,
-      required: true,
-      default: () => []
-    }
-  }
-}
+defineProps<{
+  projects: Project[]
+}>()
 </script>
 
 <style scoped>

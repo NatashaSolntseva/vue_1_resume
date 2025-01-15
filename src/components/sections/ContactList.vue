@@ -11,22 +11,13 @@
   </ul>
 </template>
 
-<script>
-import ContactItem from '@/components/shared/ContactItem.vue'
+<script setup lang="ts">
+import ContactItem from '@/components/items/ContactItem.vue'
+import type { Contact } from '@/constants/profile/contacts'
 
-export default {
-  name: 'ContactList',
-  components: {
-    ContactItem
-  },
-  props: {
-    contacts: {
-      type: Array,
-      required: true,
-      default: () => []
-    }
-  }
-}
+defineProps<{
+  contacts: Contact[]
+}>()
 </script>
 
 <style scoped>

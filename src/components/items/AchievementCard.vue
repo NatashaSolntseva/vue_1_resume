@@ -155,7 +155,8 @@ export default {
 .achievement-description {
   flex: 1;
   font-size: 12px;
-  line-height: 100%;
+  line-height: 130%;
+  letter-spacing: 1%;
   color: var(--muted-text);
 }
 

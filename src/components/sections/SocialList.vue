@@ -11,22 +11,13 @@
   </ul>
 </template>
 
-<script>
-import SocialItem from '@/components/shared/SocialItem.vue'
+<script setup lang="ts">
+import SocialItem from '@/components/items/SocialItem.vue'
+import type { Social } from '@/constants/profile/socials'
 
-export default {
-  name: 'SocialList',
-  components: {
-    SocialItem
-  },
-  props: {
-    socials: {
-      type: Array,
-      required: true,
-      default: () => []
-    }
-  }
-}
+defineProps<{
+  socials: Social[]
+}>()
 </script>
 
 <style scoped>

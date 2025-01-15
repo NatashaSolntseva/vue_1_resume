@@ -2,12 +2,6 @@
   <div class="divider"></div>
 </template>
 
-<script>
-export default {
-  name: 'SectionDivider'
-}
-</script>
-
 <style scoped>
 .divider {
   height: 1px;

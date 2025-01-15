@@ -11,22 +11,13 @@
   </div>
 </template>
 
-<script>
-import CertificateCard from '@/components/shared/CertificateCard.vue'
+<script setup lang="ts">
+import CertificateCard from '@/components/items/CertificateCard.vue'
+import type { Certificate } from '@/constants/content/certificates'
 
-export default {
-  name: 'CertificateList',
-  components: {
-    CertificateCard
-  },
-  props: {
-    certificates: {
-      type: Array,
-      required: true,
-      default: () => []
-    }
-  }
-}
+defineProps<{
+  certificates: Certificate[]
+}>()
 </script>
 
 <style scoped>

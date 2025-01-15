@@ -2,7 +2,13 @@ import hindiFlagIcon from '@/assets/icons/flag_hindi.svg'
 import englishFlagIcon from '@/assets/icons/flag_eng.svg'
 import spanishFlagIcon from '@/assets/icons/flag_spanish.svg'
 
-export const LANGUAGES = [
+export type Language = {
+  icon: string
+  label: string
+  level: string
+}
+
+export const LANGUAGES: Language[] = [
   {
     icon: hindiFlagIcon,
     label: 'Hindi',

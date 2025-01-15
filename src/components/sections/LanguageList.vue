@@ -10,22 +10,13 @@
   </ul>
 </template>
 
-<script>
-import LanguageItem from '@/components/shared/LanguageItem.vue'
+<script setup lang="ts">
+import LanguageItem from '@/components/items/LanguageItem.vue'
+import type { Language } from '@/constants/profile/languages'
 
-export default {
-  name: 'LanguageList',
-  components: {
-    LanguageItem
-  },
-  props: {
-    languages: {
-      type: Array,
-      required: true,
-      default: () => []
-    }
-  }
-}
+defineProps<{
+  languages: Language[]
+}>()
 </script>
 
 <style scoped>

@@ -1,7 +1,14 @@
 import freeCodeCampLogo from '@/assets/images/freecodecamp.png'
 import googleLogo from '@/assets/icons/google.svg'
 
-export const CERTIFICATES = [
+export type Certificate = {
+  logo: string
+  title: string
+  organization: string
+  date: string
+}
+
+export const CERTIFICATES: Certificate[] = [
   {
     logo: freeCodeCampLogo,
     title: 'Responsive Web Design',
