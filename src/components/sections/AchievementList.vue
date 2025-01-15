@@ -14,22 +14,13 @@
   </div>
 </template>
 
-<script>
-import AchievementCard from '@/components/shared/AchievementCard.vue'
+<script setup lang="ts">
+import AchievementCard from '@/components/items/AchievementCard.vue'
+import type { Achievement } from '@/constants/content/achievements'
 
-export default {
-  name: 'AchievementList',
-  components: {
-    AchievementCard
-  },
-  props: {
-    achievements: {
-      type: Array,
-      required: true,
-      default: () => []
-    }
-  }
-}
+defineProps<{
+  achievements: Achievement[]
+}>()
 </script>
 
 <style scoped>

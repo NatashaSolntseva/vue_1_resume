@@ -3,7 +3,14 @@ import webIcon from '@/assets/icons/web.svg'
 import phoneIcon from '@/assets/icons/phone.svg'
 import locationIcon from '@/assets/icons/location.svg'
 
-export const CONTACTS = [
+export type Contact = {
+  icon: string
+  label: string
+  value: string
+  link: string | null
+}
+
+export const CONTACTS: Contact[] = [
   {
     icon: emailIcon,
     label: 'Email',

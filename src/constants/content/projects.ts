@@ -3,7 +3,15 @@ import portfolioIcon from '@/assets/images/portfolio.png'
 import figmaSmallIcon from '@/assets/icons/figma_small.svg'
 import linkSmallIcon from '@/assets/icons/link_small.svg'
 
-export const PROJECTS = [
+export type Project = {
+  icon: string
+  title: string
+  description: string
+  link: string
+  linkIcon: string
+}
+
+export const PROJECTS: Project[] = [
   {
     icon: figmaIcon,
     title: 'Alexa Dev Community Landing Page',

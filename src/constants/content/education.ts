@@ -2,7 +2,15 @@ import chandigarhUniversityLogo from '@/assets/images/chandigarh_university.png'
 import suditiGlobalAcademyLogo from '@/assets/images/suditi_global_academy.png'
 import akankshaGlobalAcademyLogo from '@/assets/images/akanksha_global_academy.png'
 
-export const EDUCATION = [
+export type Education = {
+  logo: string
+  institution: string
+  degree: string
+  period: string
+  percentage: string
+}
+
+export const EDUCATION: Education[] = [
   {
     logo: chandigarhUniversityLogo,
     institution: 'Chandigarh University',

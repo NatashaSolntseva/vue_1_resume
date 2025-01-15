@@ -33,6 +33,7 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   background: var(--card-background);
   padding: 19px;
   text-align: center;
@@ -40,8 +41,6 @@ export default {
 }
 
 .tool-icon {
-  width: 48px;
-  height: 48px;
   object-fit: contain;
 }
 

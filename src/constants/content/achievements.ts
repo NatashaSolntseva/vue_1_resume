@@ -3,7 +3,17 @@ import githubIcon from '@/assets/images/github.png'
 import winterOfCodeIcon from '@/assets/images/winter_of_code.png'
 import googleIcon from '@/assets/icons/google.svg'
 
-export const ACHIEVEMENTS = [
+export type Achievement = {
+  date: string
+  location?: string
+  mode?: string
+  icon: string
+  title: string
+  role: string
+  description: string
+}
+
+export const ACHIEVEMENTS: Achievement[] = [
   {
     date: 'Present',
     location: 'Chandigarh',

@@ -12,16 +12,10 @@
   </div>
 </template>
 
-<script>
-export default {
-  name: 'SectionContainer',
-  props: {
-    title: {
-      type: String,
-      required: true
-    }
-  }
-}
+<script setup lang="ts">
+defineProps<{
+  title: string
+}>()
 </script>
 
 <style scoped>

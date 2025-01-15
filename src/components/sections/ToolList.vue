@@ -10,22 +10,13 @@
   </div>
 </template>
 
-<script>
-import ToolCard from '@/components/shared/ToolCard.vue'
+<script setup lang="ts">
+import ToolCard from '@/components/items/ToolCard.vue'
+import type { Tool } from '@/constants/content/tools'
 
-export default {
-  name: 'ToolList',
-  components: {
-    ToolCard
-  },
-  props: {
-    tools: {
-      type: Array,
-      required: true,
-      default: () => []
-    }
-  }
-}
+defineProps<{
+  tools: Tool[]
+}>()
 </script>
 
 <style scoped>

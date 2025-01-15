@@ -4,16 +4,10 @@
   </h3>
 </template>
 
-<script>
-export default {
-  name: 'ProfileSectionTitle',
-  props: {
-    text: {
-      type: String,
-      required: true
-    }
-  }
-}
+<script setup lang="ts">
+defineProps<{
+  text: string
+}>()
 </script>
 
 <style scoped>

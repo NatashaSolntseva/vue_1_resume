@@ -9,12 +9,6 @@
   </div>
 </template>
 
-<script>
-export default {
-  name: 'ProfileCard'
-}
-</script>
-
 <style scoped>
 .profile-card {
   display: flex;

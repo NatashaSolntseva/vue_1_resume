@@ -3,7 +3,12 @@ import travelIcon from '@/assets/icons/travel.svg'
 import drawIcon from '@/assets/icons/draw.svg'
 import bloggingIcon from '@/assets/icons/blogging.svg'
 
-export const HOBBIES = [
+export type Hobby = {
+  icon: string
+  label: string
+}
+
+export const HOBBIES: Hobby[] = [
   {
     icon: gamingIcon,
     label: 'Gaming'

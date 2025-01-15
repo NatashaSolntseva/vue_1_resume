@@ -9,22 +9,13 @@
   </ul>
 </template>
 
-<script>
-import HobbyItem from '@/components/shared/HobbyItem.vue'
+<script setup lang="ts">
+import HobbyItem from '@/components/items/HobbyItem.vue'
+import type { Hobby } from '@/constants/profile/hobbies'
 
-export default {
-  name: 'HobbyList',
-  components: {
-    HobbyItem
-  },
-  props: {
-    hobbies: {
-      type: Array,
-      required: true,
-      default: () => []
-    }
-  }
-}
+defineProps<{
+  hobbies: Hobby[]
+}>()
 </script>
 
 <style scoped>

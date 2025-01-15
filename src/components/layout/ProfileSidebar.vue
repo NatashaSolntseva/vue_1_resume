@@ -14,40 +14,24 @@
   </div>
 </template>
 
-<script>
+<script setup lang="ts">
 import ProfileCard from '@/components/sections/ProfileCard.vue'
-import SectionDivider from '@/components/shared/Divider.vue'
+import SectionDivider from '@/components/shared/SectionDivider.vue'
 import ContactList from '@/components/sections/ContactList.vue'
 import SocialList from '@/components/sections/SocialList.vue'
 import LanguageList from '@/components/sections/LanguageList.vue'
 import HobbyList from '@/components/sections/HobbyList.vue'
 import SectionTitle from '@/components/shared/ProfileSectionTitle.vue'
 
-import { SOCIALS } from '@/constants/profile/socials.ts'
-import { LANGUAGES } from '@/constants/profile/languages.ts'
-import { HOBBIES } from '@/constants/profile/hobbies.ts'
-import { CONTACTS } from '@/constants/profile/contacts.ts'
+import { SOCIALS } from '@/constants/profile/socials'
+import { LANGUAGES } from '@/constants/profile/languages'
+import { HOBBIES } from '@/constants/profile/hobbies'
+import { CONTACTS } from '@/constants/profile/contacts'
 
-export default {
-  name: 'ProfileSidebar',
-  components: {
-    ProfileCard,
-    SectionDivider,
-    ContactList,
-    SocialList,
-    LanguageList,
-    HobbyList,
-    SectionTitle
-  },
-  data() {
-    return {
-      languages: LANGUAGES,
-      hobbies: HOBBIES,
-      socials: SOCIALS,
-      contacts: CONTACTS
-    }
-  }
-}
+const languages = LANGUAGES
+const hobbies = HOBBIES
+const socials = SOCIALS
+const contacts = CONTACTS
 </script>
 
 <style scoped>

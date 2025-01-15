@@ -1,5 +1,3 @@
-<script setup lang="ts"></script>
-
 <template>
   <div class="app">
     <ProfileSidebar />
@@ -7,17 +5,9 @@
   </div>
 </template>
 
-<script>
+<script setup lang="ts">
 import ProfileSidebar from '@/components/layout/ProfileSidebar.vue'
 import ContentMain from '@/components/layout/ContentMain.vue'
-
-export default {
-  name: 'App',
-  components: {
-    ProfileSidebar,
-    ContentMain
-  }
-}
 </script>
 
 <style scoped>

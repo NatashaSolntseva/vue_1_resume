@@ -3,7 +3,14 @@ import gitIcon from '@/assets/icons/git.svg'
 import twitterIcon from '@/assets/icons/twitter.svg'
 import linkedinIcon from '@/assets/icons/linkedin.svg'
 
-export const SOCIALS = [
+export type Social = {
+  icon: string
+  label: string
+  value: string
+  link: string
+}
+
+export const SOCIALS: Social[] = [
   {
     icon: instagramIcon,
     label: 'Instagram',

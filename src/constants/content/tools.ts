@@ -7,7 +7,13 @@ import wordpressIcon from '@/assets/images/wordpress.png'
 import vscodeIcon from '@/assets/images/vscode.png'
 import notionIcon from '@/assets/images/notion.png'
 
-export const TOOLS = [
+export type Tool = {
+  icon: string
+  name: string
+  description: string
+}
+
+export const TOOLS: Tool[] = [
   {
     icon: figmaIcon,
     name: 'Figma',

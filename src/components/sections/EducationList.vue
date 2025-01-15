@@ -12,22 +12,13 @@
   </div>
 </template>
 
-<script>
-import EducationCard from '@/components/shared/EducationCard.vue'
+<script setup lang="ts">
+import EducationCard from '@/components/items/EducationCard.vue'
+import type { Education } from '@/constants/content/education'
 
-export default {
-  name: 'EducationList',
-  components: {
-    EducationCard
-  },
-  props: {
-    education: {
-      type: Array,
-      required: true,
-      default: () => []
-    }
-  }
-}
+defineProps<{
+  education: Education[]
+}>()
 </script>
 
 <style scoped>
